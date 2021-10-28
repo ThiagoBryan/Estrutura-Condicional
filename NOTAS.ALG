@@ -1,0 +1,25 @@
+Algoritmo "Notas"
+
+Var
+      nota1, nota2, notaFinal : real
+
+
+Inicio
+        escreva("Digite a primeira nota: ")
+        leia(nota1)
+        escreva("Digite a segunda nota: ")
+        leia(nota2)
+
+        notaFinal <- nota1 + nota2
+        escreval("NOTA FINAL: ",notaFinal:4:1)
+        
+        se notaFinal < 60 entao
+           escreval("REPROVADO")
+        senao notaFinal >= 60 entao           // BONUS pq o exercicio nao pedia caso vc aprovado.
+           escreval("APROVADO!!!")
+        fimse
+        
+        
+
+
+Fimalgoritmo
